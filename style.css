@@ -1,0 +1,48 @@
+*,
+html {
+margin: 0;
+padding: 0;
+}
+.container-navbar {
+    background-color: #333;
+    width: 100%;
+    height: 6vh;
+    
+}
+.ul-navbar {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+    font: bold 25px Arial, sans-serif;
+}
+.container-content {
+    height: 88vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content{
+    width: 250px;
+    height: 250px;
+}
+.container-footer{
+    height: 6vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bagian-bawah-h1{
+    font: bold 25px Arial, sans-serif; 
+    color: white;
+}
